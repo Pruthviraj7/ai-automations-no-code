@@ -72,7 +72,7 @@ Output JSON with these fields:
 If a field is missing, use "NA".
 
 ![Gemini Input](images/gemini-api-input.png)
-
+```
 ## Step 9: Text Parser
 **Module:** Text Parser → *Match Pattern*  
 Extracts key values or ensures formatting is correct for the AI output.
@@ -96,3 +96,4 @@ Columns example: Job Title, Company, Location, Date Posted, Employment Type, Ski
 - **Scalable** → Can process multiple job postings continuously without manual effort.  
 - **Customizable** → Easy to tweak prompts, output fields, or sheet structure based on your needs.  
 - **Collaboration-Ready** → Data stored in Google Sheets makes it easy to share and analyze with your team.  
+
